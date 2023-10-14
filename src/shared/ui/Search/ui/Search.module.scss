@@ -1,0 +1,54 @@
+.div_main {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background: #1F1F1F;
+    padding: 5px;
+    border-radius: 15px;
+}
+
+.div_main_light {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background: #ffffff;
+    padding: 5px;
+    border-radius: 15px;
+}
+
+.Button {
+    width: 10%;
+    height: 60px;
+    background: #1F1F1F;
+    cursor: pointer;
+}
+
+.Button_light {
+    width: 10%;
+    height: 60px;
+    cursor: pointer;
+}
+
+.Input {
+    color: #ffffff;
+    width: 97%;
+    background: #1F1F1F;
+    font-size: 16pt;
+    padding: 20px;
+    margin-right: 5px;
+    border-radius: 15px;
+}
+
+.Input_light {
+    color: #000000;
+    width: 97%;
+    background: #ffffff;
+    font-size: 16pt;
+    padding: 20px;
+    margin-right: 5px;
+    border-radius: 15px;
+
+    &:focus {
+        outline: #A437B1 2px solid;
+    }
+}

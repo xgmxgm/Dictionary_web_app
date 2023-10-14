@@ -1,0 +1,41 @@
+.Input[type=checkbox]{
+    height: 0;
+    width: 0;
+    visibility: hidden;
+}
+
+.Label {
+    cursor: pointer;
+    text-indent: -9999px;
+    width: 50px;
+    height: 25px;
+    background: #A445ED;
+    display: block;
+    border-radius: 100px;
+    position: relative;
+}
+
+.Label:after {
+    content: '';
+    position: absolute;
+    top: 2px;
+    left: 4px;
+    width: 20px;
+    height: 20px;
+    background: #fff;
+    border-radius: 90px;
+    transition: 0.3s;
+}
+
+.Input:checked + label {
+    background: #A445ED;
+}
+
+.Input:checked + label:after {
+    left: calc(100% - 5px);
+    transform: translateX(-100%);
+}
+
+.Label:active:after {
+    width: 30px;
+}

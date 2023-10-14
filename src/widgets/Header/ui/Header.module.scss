@@ -1,0 +1,27 @@
+.Header {
+    padding: 10px 20px;
+
+    .div__Header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .Header__Left {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .Header__Right {
+            display: flex;
+            align-items: center;
+
+            .Line {
+                background: #636363;
+                height: 50px;
+                width: 1px;
+                margin: 0 10px;
+            }
+        }
+    }
+}

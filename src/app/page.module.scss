@@ -1,0 +1,59 @@
+.main__app {
+    width: 100%;
+
+    .light__theme {
+        width: 100%;
+        height: 100%;
+        min-height: 100vh;
+        background-color: white;
+        color: black;
+        display: flex;
+        justify-content: center;
+        transition: 0.3s;
+
+        .app {
+            .Main {
+                * {
+                    color: black;
+                }
+    
+                .h4 {
+                    color: #A437B1;
+                }
+            }
+
+            .a {
+                color: black;
+                font-size: 120pt;
+            }
+        }
+    }
+    
+    .dark__theme {
+        width: 100%;
+        height: 100%;
+        min-height: 100vh;
+        background-color: #050505;
+        color: white;
+        display: flex;
+        justify-content: center;
+        transition: 0.3s;
+
+        .app {
+            .Main {
+                * {
+                    color: white;
+                }
+
+                .h4 {
+                    color: #A437B1;
+                }
+            }
+        }
+    }
+
+    .app {
+        width: 100%;
+        max-width: 800px;
+    }
+}
